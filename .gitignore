@@ -11,3 +11,14 @@ CAD Files/desktop.ini
 DXF/desktop.ini
 
 AX-04-R Micro Core XY Buying list.xlsx
+
+*.SLDASM
+*.SLDDRW
+*.PRT
+*.SLDPRT
+
+Render/
+
+*.xlsx
+
+*.gsheet
