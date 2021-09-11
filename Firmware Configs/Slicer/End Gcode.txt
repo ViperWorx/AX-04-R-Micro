@@ -1,0 +1,11 @@
+TURN_OFF_HEATERS
+M106 S0; Fan off
+G91 ;Relative positioning
+G1 E-1 F300  ;retract the filament a bit before lifting the nozzle to release some of the pressure
+G1 E-5 F4800; Retract
+G90 ; Absolute positioning
+G1 Z115 F1800 Bed to bottom of printer
+G28 X Y F4800; home X & Y axis
+M84; disable all stepper motors
+SET_LED LED=lcd RED=1 GREEN=1 BLUE=1 SYNC=0
+M117 Work Complete!
