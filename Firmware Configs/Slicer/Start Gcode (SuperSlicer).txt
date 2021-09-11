@@ -1,0 +1,14 @@
+M80
+G4 P60
+M79
+G21 ; mm
+G28; home all
+G1 Z15 F420;
+M117 Heating..
+SET_LED LED=lcd RED=1 GREEN=0 BLUE=0 SYNC=0
+M140 S[bed_temperature]
+M104 S[first_layer_temperature]
+M190 S[bed_temperature]
+M109 S[first_layer_temperature]
+SET_LED LED=lcd RED=0 GREEN=1 BLUE=0 SYNC=0
+PURGE
