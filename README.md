@@ -6,4 +6,4 @@
 The AX-04-R is a Acrylic bodied 3D Printer with a 120mm³ build volume.
 
 <h4>Bill of Materials</h4>
-You can find the Bill of materials [here](https://docs.google.com/spreadsheets/d/1N3T2BKN8lVm5PpJpeCxoxXIL51K7zTlElqo2wkVUTho/edit?usp=sharing)
+You can find the Bill of material <a href="https://docs.google.com/spreadsheets/d/1N3T2BKN8lVm5PpJpeCxoxXIL51K7zTlElqo2wkVUTho/edit?usp=sharing">here</a>
